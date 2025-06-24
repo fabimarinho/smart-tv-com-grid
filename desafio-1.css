@@ -1,3 +1,18 @@
+:root {
+  --azul: #0588c4;
+  --azul-claro: #78d4ff;
+  --azul-escuro: #035276;
+  --laranja-avermelhado: #c44105;
+
+  --propriedade-box: border-box;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-display: swap;
+  src: url();
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -63,7 +78,7 @@ figcaption {
 a:link,
 a:visited {
   display: inline-block;
-  color: #c44105;
+  color: var(--laranja-avermelhado);
   font-size: 2.4rem;
   font-weight: 700;
   text-decoration: double;
@@ -72,7 +87,7 @@ a:visited {
 
 a:hover,
 a:active {
-  color: #0588c4;
+  color: var(--azul);
 }
 
 ul {
@@ -80,7 +95,7 @@ ul {
 }
 
 li {
-  color: #035276;
+  color: var(--azul-escuro);
   font-style: italic;
 }
 
@@ -113,28 +128,28 @@ section:nth-child(2) {
 }
 
 .realce-h1 {
-  color: #0588c4;
+  color: var(--azul);
 }
 
 .realce-p,
 p strong {
-  color: #0588c4;
+  color: var(--azul);
   font-weight: 700;
 }
 
 .realce-italico {
-  color: #0588c4;
+  color: var(--azul);
   font-style: italic;
 }
 
 .realce-underline {
-  color: #0588c4;
+  color: var(--azul);
   text-decoration: underline;
 }
 
 .div-condicoes {
   display: inline-block;
-  background-color: #035276;
+  background-color: var(--azul-escuro);
   color: #fff;
   box-shadow: 0 0 1.6rem 0.4rem rgba(0, 0, 0, 0.15);
   padding: 2.4rem 3.2rem;
